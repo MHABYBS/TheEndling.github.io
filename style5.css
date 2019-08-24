@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.he
+{
+    
+    width: 100%;
+    height: 700px !important;
+    padding-top: 10px;
+    background-image: url('https://wallpaperhd.wiki/wp-content/uploads/hd-backgrounds-simple-simple-background-simple-hd-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-bottom: 87px; */
+    text-align: center;
+    
+}
+.card{
+    height: 370px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    .form-control
+    {
+        font-size: 20px;
+    }
+    
+    
+    .remember input
+    {
+    width: 20px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 5px;
+    
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    
+    .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 50%;
+        margin-bottom: 0;
+        height: 50px;
+        font-size: 19px;
+    
+    }
+        .card-footer a
+        {
+            font-size: 15px;
+            color: #FFC312;
+        }
+        .card-footer 
+        {
+            font-size: 15px;
+            
+        }
+      
+      li a
+      {
+          color: black !important;
+          background-color: transparent !important;
+      
+      }
+      .navbar-default
+      {
+          width:100%;
+          background:transparent !important;
+          /* padding-right: 270px; */
+          border: transparent;
+          border-color: transparent !important;
+          margin-top: 5px !important;
+      }
+      .navbar
+      {
+          border: none !important;
+          margin-bottom: 100px;
+          justify-content: center !important;
+          padding-bottom: 10px !important;
+          
+      }
+    
+      .navbar a
+      {
+       
+       text-align: center !important;
+        text-decoration: none;
+        font-family: Gilroy-Medium;
+        opacity: .6;
+        margin-right: 190px !important;
+        font-size: 25px;
+        letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: white !important;
+    
+    
+      }
+      .navbar-nav {
+      
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: row !important;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    
+        
+      }
+      .dropdown-menu a
+    {
+        color: black !important;
+        background-color: transparent!;
+    }
+    .dropdown-menu a:hover
+    {
+        background-color: transparent !important;
+    }
+    
+    
+    .dropdown-menu
+    {
+        background: transparent !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    
+    }
+    li.dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+      {
+          background: transparent !important;   
+          
+      }
+      .navbar a:hover
+      {
+          opacity: 1;
+      }
+      .myButton {
+        background-color:transparent;
+        -moz-border-radius:15px;
+        -webkit-border-radius:15px;
+        border-radius:28px;
+        border:1px solid #fcfcfc;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:6px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffffff;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        
+    }
+    .myButton:hover {
+        background-color:transparent;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    .modal
+    {
+        position: initial !important;
+        background: transparent !important;
+       
+    }
+    
+    .blocker
+    {
+        overflow: hidden;
+    }
+
+
+.all 
+{
+    display: flex !important;
+    justify-content: center !important;
+}

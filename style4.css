@@ -1,0 +1,87 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #a3daff;
+  text-align: center;
+}
+h1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 3em;
+}
+input {
+  font-size: 1em;
+  padding: 0.5em;
+  outline: none;
+}
+.set_timer {
+  border: 1px solid #999;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #999;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.set_timer:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.clock {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  position: relative;
+}
+.line {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  width: 1px;
+  height: 150px;
+  border-left: 2px solid #fff;
+  transform-origin: 0px 150px;
+  -webkit-transform-origin: 0px 150px;
+  -moz-transform-origin: 0px 150px;
+  -o-transform-origin: 0px 150px;
+  -ms-transform-origon: 0px 150px;
+}
+.circle {
+  -webkit-transition: all 3s linear;
+  transition: all 3s linear;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+
+.myButton1 {
+	background-color: mediumblue;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:28px;
+	border:1px solid #fcfcfc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    font-size: 19px !important;
+    text-decoration: none !important;
+    margin-top: 100px;
+}
+.myButton1:hover {
+	opacity: 0.5 ;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}

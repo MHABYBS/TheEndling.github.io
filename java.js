@@ -26,5 +26,5 @@ function showIt() {
   }  
   setTimeout("HideIt()", 5000); // after 2 sec  
   setTimeout(function(){
-    window.location.href = 'Xhome.html';
+    window.location.href = 'start.html';
  }, 7000);
